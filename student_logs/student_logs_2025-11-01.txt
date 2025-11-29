@@ -1,0 +1,339 @@
+            main2.py [LINE:50  ] INFO     [2025-11-01 16:01:54,155] Бот для абитуриентов запущен и готов к работе.
+            main2.py [LINE:558 ] INFO     [2025-11-01 16:01:54,155] Запуск цикла обработки сообщений для бота абитуриентов...
+         __init__.py [LINE:1241] ERROR    [2025-11-01 16:01:58,678] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+         __init__.py [LINE:1243] ERROR    [2025-11-01 16:01:58,687] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+         __init__.py [LINE:1241] ERROR    [2025-11-01 16:02:04,158] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+         __init__.py [LINE:1243] ERROR    [2025-11-01 16:02:04,165] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+         __init__.py [LINE:1241] ERROR    [2025-11-01 16:02:09,241] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+         __init__.py [LINE:1243] ERROR    [2025-11-01 16:02:09,267] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+            main2.py [LINE:120 ] INFO     [2025-11-01 16:04:51,811] Абитуриент 2138704235 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-01 16:04:54,024] Абитуриент 2138704235 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-01 16:04:55,312] Пользователь 2138704235 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 16:05:02,519] Абитуриент 2138704235 ввел логин: D.Tarasova
+            main2.py [LINE:194 ] INFO     [2025-11-01 16:05:03,515] DEBUG: Успешная авторизация для D.Tarasova
+            main2.py [LINE:203 ] INFO     [2025-11-01 16:05:03,612] Абитуриент 2138704235 успешно авторизован как D.Tarasova
+            main2.py [LINE:219 ] INFO     [2025-11-01 16:05:06,321] DEBUG: user_id=2138704235, current_login=D.Tarasova
+            main2.py [LINE:233 ] INFO     [2025-11-01 16:05:06,329] Студент D.Tarasova запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 16:05:06,481] Табель успешно отправлен студенту D.Tarasova
+            main2.py [LINE:219 ] INFO     [2025-11-01 16:05:41,259] DEBUG: user_id=1184256677, current_login=None
+            main2.py [LINE:223 ] WARNING  [2025-11-01 16:05:41,496] Пользователь 1184256677 не авторизован
+            main2.py [LINE:219 ] INFO     [2025-11-01 16:05:45,677] DEBUG: user_id=1184256677, current_login=None
+            main2.py [LINE:223 ] WARNING  [2025-11-01 16:05:45,788] Пользователь 1184256677 не авторизован
+            main2.py [LINE:120 ] INFO     [2025-11-01 16:05:55,200] Абитуриент 1184256677 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-01 16:05:57,057] Абитуриент 1184256677 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-01 16:06:01,255] Пользователь 1184256677 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 16:06:09,559] Абитуриент 1184256677 ввел логин: A.Chekalov
+            main2.py [LINE:194 ] INFO     [2025-11-01 16:06:12,835] DEBUG: Успешная авторизация для A.Chekalov
+            main2.py [LINE:203 ] INFO     [2025-11-01 16:06:13,041] Абитуриент 1184256677 успешно авторизован как A.Chekalov
+            main2.py [LINE:219 ] INFO     [2025-11-01 16:06:16,299] DEBUG: user_id=1184256677, current_login=A.Chekalov
+            main2.py [LINE:233 ] INFO     [2025-11-01 16:06:16,313] Студент A.Chekalov запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 16:06:16,576] Табель успешно отправлен студенту A.Chekalov
+            main2.py [LINE:308 ] INFO     [2025-11-01 16:06:38,016] Студент A.Chekalov открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-01 16:06:41,891] Студент A.Chekalov запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-01 16:06:41,896] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-01 16:06:41,905] DEBUG: Завтра - дата: 2025-11-02, день: sunday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-01 16:06:41,912] DEBUG: Получено расписаний: 0
+            main2.py [LINE:381 ] INFO     [2025-11-01 16:06:41,914] DEBUG: Расписание на завтра не найдено
+            main2.py [LINE:445 ] INFO     [2025-11-01 16:06:42,110] Расписание на tomorrow успешно отправлено студенту A.Chekalov
+            main2.py [LINE:308 ] INFO     [2025-11-01 16:06:47,836] Студент A.Chekalov открыл раздел расписания
+            main2.py [LINE:462 ] INFO     [2025-11-01 16:06:51,727] Студент A.Chekalov запросил приоритеты
+            main2.py [LINE:519 ] INFO     [2025-11-01 16:06:51,962] Приоритеты успешно отправлены студенту A.Chekalov
+            main2.py [LINE:219 ] INFO     [2025-11-01 16:07:49,986] DEBUG: user_id=936499824, current_login=None
+            main2.py [LINE:223 ] WARNING  [2025-11-01 16:07:50,213] Пользователь 936499824 не авторизован
+            main2.py [LINE:219 ] INFO     [2025-11-01 16:07:52,527] DEBUG: user_id=936499824, current_login=None
+            main2.py [LINE:223 ] WARNING  [2025-11-01 16:07:52,618] Пользователь 936499824 не авторизован
+            main2.py [LINE:219 ] INFO     [2025-11-01 17:36:23,162] DEBUG: user_id=2138704235, current_login=D.Tarasova
+            main2.py [LINE:233 ] INFO     [2025-11-01 17:36:23,169] Студент D.Tarasova запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 17:36:23,616] Табель успешно отправлен студенту D.Tarasova
+            main2.py [LINE:120 ] INFO     [2025-11-01 17:47:42,487] Абитуриент 1370713259 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-01 17:47:44,024] Абитуриент 1370713259 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-01 17:47:49,253] Пользователь 1370713259 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 17:47:55,395] Абитуриент 1370713259 ввел логин: D.Pakskin
+            main2.py [LINE:194 ] INFO     [2025-11-01 17:48:00,740] DEBUG: Успешная авторизация для D.Pakskin
+            main2.py [LINE:203 ] INFO     [2025-11-01 17:48:00,949] Абитуриент 1370713259 успешно авторизован как D.Pakskin
+            main2.py [LINE:462 ] INFO     [2025-11-01 17:48:05,124] Студент D.Pakskin запросил приоритеты
+            main2.py [LINE:519 ] INFO     [2025-11-01 17:48:05,266] Приоритеты успешно отправлены студенту D.Pakskin
+            main2.py [LINE:219 ] INFO     [2025-11-01 17:48:09,624] DEBUG: user_id=1370713259, current_login=D.Pakskin
+            main2.py [LINE:233 ] INFO     [2025-11-01 17:48:09,650] Студент D.Pakskin запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 17:48:09,857] Табель успешно отправлен студенту D.Pakskin
+            main2.py [LINE:163 ] INFO     [2025-11-01 17:53:10,070] Пользователь 909151272 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 17:53:13,411] Абитуриент 909151272 ввел логин: C.Dasha
+            main2.py [LINE:194 ] INFO     [2025-11-01 17:53:18,810] DEBUG: Успешная авторизация для C.Dasha
+            main2.py [LINE:203 ] INFO     [2025-11-01 17:53:19,007] Абитуриент 909151272 успешно авторизован как C.Dasha
+            main2.py [LINE:308 ] INFO     [2025-11-01 17:53:20,820] Студент C.Dasha открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-01 17:53:23,079] Студент C.Dasha запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-01 17:53:23,082] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-01 17:53:23,089] DEBUG: Завтра - дата: 2025-11-02, день: sunday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-01 17:53:23,100] DEBUG: Получено расписаний: 0
+            main2.py [LINE:381 ] INFO     [2025-11-01 17:53:23,101] DEBUG: Расписание на завтра не найдено
+            main2.py [LINE:445 ] INFO     [2025-11-01 17:53:23,294] Расписание на tomorrow успешно отправлено студенту C.Dasha
+            main2.py [LINE:308 ] INFO     [2025-11-01 17:53:24,412] Студент C.Dasha открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-01 17:53:25,661] Студент C.Dasha запросил расписание на week
+            main2.py [LINE:345 ] INFO     [2025-11-01 17:53:25,663] DEBUG: Обработка периода 'week'
+            main2.py [LINE:368 ] INFO     [2025-11-01 17:53:25,664] DEBUG: Неделя - тип: even
+            main2.py [LINE:376 ] INFO     [2025-11-01 17:53:25,675] DEBUG: Получено расписаний: 19
+            main2.py [LINE:445 ] INFO     [2025-11-01 17:53:25,955] Расписание на week успешно отправлено студенту C.Dasha
+            main2.py [LINE:308 ] INFO     [2025-11-01 17:53:30,712] Студент C.Dasha открыл раздел расписания
+            main2.py [LINE:219 ] INFO     [2025-11-01 17:53:34,023] DEBUG: user_id=909151272, current_login=C.Dasha
+            main2.py [LINE:233 ] INFO     [2025-11-01 17:53:34,040] Студент C.Dasha запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 17:53:34,244] Табель успешно отправлен студенту C.Dasha
+            main2.py [LINE:120 ] INFO     [2025-11-01 17:59:00,264] Абитуриент 933470834 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-01 17:59:04,358] Абитуриент 933470834 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-01 17:59:08,355] Пользователь 933470834 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 17:59:34,746] Абитуриент 933470834 ввел логин: V.Abuseva
+            main2.py [LINE:194 ] INFO     [2025-11-01 17:59:53,981] DEBUG: Успешная авторизация для V.Abuseva
+            main2.py [LINE:203 ] INFO     [2025-11-01 17:59:54,179] Абитуриент 933470834 успешно авторизован как V.Abuseva
+            main2.py [LINE:219 ] INFO     [2025-11-01 18:00:00,134] DEBUG: user_id=933470834, current_login=V.Abuseva
+            main2.py [LINE:233 ] INFO     [2025-11-01 18:00:00,144] Студент V.Abuseva запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 18:00:00,434] Табель успешно отправлен студенту V.Abuseva
+            main2.py [LINE:462 ] INFO     [2025-11-01 18:00:42,986] Студент V.Abuseva запросил приоритеты
+            main2.py [LINE:519 ] INFO     [2025-11-01 18:00:43,215] Приоритеты успешно отправлены студенту V.Abuseva
+            main2.py [LINE:219 ] INFO     [2025-11-01 18:09:36,983] DEBUG: user_id=1159392472, current_login=None
+            main2.py [LINE:223 ] WARNING  [2025-11-01 18:09:37,485] Пользователь 1159392472 не авторизован
+            main2.py [LINE:120 ] INFO     [2025-11-01 18:10:02,522] Абитуриент 1159392472 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-01 18:10:04,236] Абитуриент 1159392472 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-01 18:10:05,971] Пользователь 1159392472 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 18:10:15,333] Абитуриент 1159392472 ввел логин: S.Dima
+            main2.py [LINE:194 ] INFO     [2025-11-01 18:10:24,510] DEBUG: Успешная авторизация для S.Dima
+            main2.py [LINE:203 ] INFO     [2025-11-01 18:10:24,622] Абитуриент 1159392472 успешно авторизован как S.Dima
+            main2.py [LINE:219 ] INFO     [2025-11-01 18:10:27,595] DEBUG: user_id=1159392472, current_login=S.Dima
+            main2.py [LINE:233 ] INFO     [2025-11-01 18:10:27,610] Студент S.Dima запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 18:10:27,832] Табель успешно отправлен студенту S.Dima
+            main2.py [LINE:308 ] INFO     [2025-11-01 18:11:24,326] Студент S.Dima открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-01 18:11:36,721] Студент S.Dima запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-01 18:11:36,725] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-01 18:11:36,735] DEBUG: Завтра - дата: 2025-11-02, день: sunday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-01 18:11:36,740] DEBUG: Получено расписаний: 0
+            main2.py [LINE:381 ] INFO     [2025-11-01 18:11:36,741] DEBUG: Расписание на завтра не найдено
+            main2.py [LINE:445 ] INFO     [2025-11-01 18:11:36,948] Расписание на tomorrow успешно отправлено студенту S.Dima
+            main2.py [LINE:308 ] INFO     [2025-11-01 18:11:40,095] Студент S.Dima открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-01 18:11:42,041] Студент S.Dima запросил расписание на today
+            main2.py [LINE:345 ] INFO     [2025-11-01 18:11:42,050] DEBUG: Обработка периода 'today'
+            main2.py [LINE:352 ] INFO     [2025-11-01 18:11:42,052] DEBUG: Сегодня - дата: 2025-11-01, день: saturday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-01 18:11:42,064] DEBUG: Получено расписаний: 3
+            main2.py [LINE:445 ] INFO     [2025-11-01 18:11:42,276] Расписание на today успешно отправлено студенту S.Dima
+            main2.py [LINE:308 ] INFO     [2025-11-01 18:11:49,629] Студент S.Dima открыл раздел расписания
+            main2.py [LINE:219 ] INFO     [2025-11-01 19:36:52,771] DEBUG: user_id=1062591923, current_login=None
+            main2.py [LINE:223 ] WARNING  [2025-11-01 19:36:52,980] Пользователь 1062591923 не авторизован
+            main2.py [LINE:120 ] INFO     [2025-11-01 19:36:57,186] Абитуриент 1062591923 вызвал /start
+            main2.py [LINE:308 ] INFO     [2025-11-01 21:32:03,804] Студент D.Tarasova открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-01 21:32:05,041] Студент D.Tarasova запросил расписание на today
+            main2.py [LINE:345 ] INFO     [2025-11-01 21:32:05,042] DEBUG: Обработка периода 'today'
+            main2.py [LINE:352 ] INFO     [2025-11-01 21:32:05,044] DEBUG: Сегодня - дата: 2025-11-01, день: saturday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-01 21:32:05,144] DEBUG: Получено расписаний: 3
+            main2.py [LINE:445 ] INFO     [2025-11-01 21:32:05,303] Расписание на today успешно отправлено студенту D.Tarasova
+            main2.py [LINE:308 ] INFO     [2025-11-01 21:32:11,204] Студент D.Tarasova открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-01 21:32:14,768] Студент D.Tarasova запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-01 21:32:14,770] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-01 21:32:14,847] DEBUG: Завтра - дата: 2025-11-02, день: sunday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-01 21:32:14,870] DEBUG: Получено расписаний: 0
+            main2.py [LINE:381 ] INFO     [2025-11-01 21:32:14,872] DEBUG: Расписание на завтра не найдено
+            main2.py [LINE:445 ] INFO     [2025-11-01 21:32:15,079] Расписание на tomorrow успешно отправлено студенту D.Tarasova
+            main2.py [LINE:308 ] INFO     [2025-11-01 21:32:16,099] Студент D.Tarasova открыл раздел расписания
+            main2.py [LINE:120 ] INFO     [2025-11-01 21:41:53,815] Абитуриент 1911135274 вызвал /start
+            main2.py [LINE:120 ] INFO     [2025-11-01 21:41:54,481] Абитуриент 1911135274 вызвал /start
+            main2.py [LINE:120 ] INFO     [2025-11-01 21:41:56,292] Абитуриент 1911135274 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-01 21:41:58,260] Абитуриент 1911135274 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-01 21:42:00,100] Пользователь 1911135274 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 21:42:16,463] Абитуриент 1911135274 ввел логин: V.Hayrulin
+            main2.py [LINE:194 ] INFO     [2025-11-01 21:42:42,450] DEBUG: Успешная авторизация для V.Hayrulin
+            main2.py [LINE:203 ] INFO     [2025-11-01 21:42:42,596] Абитуриент 1911135274 успешно авторизован как V.Hayrulin
+            main2.py [LINE:308 ] INFO     [2025-11-01 21:42:44,330] Студент V.Hayrulin открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-01 21:42:47,102] Студент V.Hayrulin запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-01 21:42:47,105] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-01 21:42:47,107] DEBUG: Завтра - дата: 2025-11-02, день: sunday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-01 21:42:47,123] DEBUG: Получено расписаний: 0
+            main2.py [LINE:381 ] INFO     [2025-11-01 21:42:47,125] DEBUG: Расписание на завтра не найдено
+            main2.py [LINE:445 ] INFO     [2025-11-01 21:42:47,317] Расписание на tomorrow успешно отправлено студенту V.Hayrulin
+            main2.py [LINE:308 ] INFO     [2025-11-01 21:42:48,944] Студент V.Hayrulin открыл раздел расписания
+            main2.py [LINE:219 ] INFO     [2025-11-01 21:42:52,692] DEBUG: user_id=1911135274, current_login=V.Hayrulin
+            main2.py [LINE:233 ] INFO     [2025-11-01 21:42:52,701] Студент V.Hayrulin запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 21:42:52,833] Табель успешно отправлен студенту V.Hayrulin
+            main2.py [LINE:462 ] INFO     [2025-11-01 21:43:04,107] Студент V.Hayrulin запросил приоритеты
+            main2.py [LINE:519 ] INFO     [2025-11-01 21:43:04,279] Приоритеты успешно отправлены студенту V.Hayrulin
+            main2.py [LINE:219 ] INFO     [2025-11-01 22:53:28,232] DEBUG: user_id=936499824, current_login=None
+            main2.py [LINE:223 ] WARNING  [2025-11-01 22:53:28,642] Пользователь 936499824 не авторизован
+            main2.py [LINE:163 ] INFO     [2025-11-01 22:53:52,983] Пользователь 936499824 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 22:53:58,477] Абитуриент 936499824 ввел логин: D.Tarasova
+            main2.py [LINE:194 ] INFO     [2025-11-01 22:54:12,152] DEBUG: Успешная авторизация для D.Tarasova
+            main2.py [LINE:203 ] INFO     [2025-11-01 22:54:12,362] Абитуриент 936499824 успешно авторизован как D.Tarasova
+            main2.py [LINE:219 ] INFO     [2025-11-01 22:54:18,612] DEBUG: user_id=936499824, current_login=D.Tarasova
+            main2.py [LINE:233 ] INFO     [2025-11-01 22:54:18,624] Студент D.Tarasova запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 22:54:18,845] Табель успешно отправлен студенту D.Tarasova
+            main2.py [LINE:219 ] INFO     [2025-11-01 23:21:15,733] DEBUG: user_id=2138704235, current_login=D.Tarasova
+            main2.py [LINE:233 ] INFO     [2025-11-01 23:21:15,745] Студент D.Tarasova запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 23:21:16,199] Табель успешно отправлен студенту D.Tarasova
+            main2.py [LINE:120 ] INFO     [2025-11-01 23:22:46,747] Абитуриент 2138704235 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-01 23:22:48,301] Абитуриент 2138704235 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-01 23:22:49,732] Пользователь 2138704235 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-01 23:22:59,683] Абитуриент 2138704235 ввел логин: M.Timur
+            main2.py [LINE:194 ] INFO     [2025-11-01 23:23:02,239] DEBUG: Успешная авторизация для M.Timur
+            main2.py [LINE:203 ] INFO     [2025-11-01 23:23:02,454] Абитуриент 2138704235 успешно авторизован как M.Timur
+            main2.py [LINE:219 ] INFO     [2025-11-01 23:23:04,373] DEBUG: user_id=2138704235, current_login=M.Timur
+            main2.py [LINE:233 ] INFO     [2025-11-01 23:23:04,391] Студент M.Timur запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-01 23:23:04,598] Табель успешно отправлен студенту M.Timur
+            main2.py [LINE:308 ] INFO     [2025-11-02 00:23:36,466] Студент V.Hayrulin открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-02 00:23:38,044] Студент V.Hayrulin запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-02 00:23:38,045] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-02 00:23:38,046] DEBUG: Завтра - дата: 2025-11-03, день: monday, неделя: odd
+            main2.py [LINE:376 ] INFO     [2025-11-02 00:23:38,130] DEBUG: Получено расписаний: 2
+            main2.py [LINE:445 ] INFO     [2025-11-02 00:23:38,241] Расписание на tomorrow успешно отправлено студенту V.Hayrulin
+            main2.py [LINE:308 ] INFO     [2025-11-02 00:23:40,921] Студент V.Hayrulin открыл раздел расписания
+            main2.py [LINE:462 ] INFO     [2025-11-02 01:22:44,316] Студент V.Hayrulin запросил приоритеты
+            main2.py [LINE:519 ] INFO     [2025-11-02 01:22:44,969] Приоритеты успешно отправлены студенту V.Hayrulin
+            main2.py [LINE:563 ] ERROR    [2025-11-02 05:17:53,074] Ошибка в работе бота абитуриентов: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 367, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/KFGbot/main2.py", line 559, in <module>
+    bot.polling(none_stop=True)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+            main2.py [LINE:565 ] INFO     [2025-11-02 05:17:53,119] Бот абитуриентов завершил работу.

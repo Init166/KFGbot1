@@ -1,0 +1,157 @@
+            main2.py [LINE:50  ] INFO     [2025-11-23 07:32:54,146] Бот для абитуриентов запущен и готов к работе.
+            main2.py [LINE:558 ] INFO     [2025-11-23 07:32:54,147] Запуск цикла обработки сообщений для бота абитуриентов...
+            main2.py [LINE:120 ] INFO     [2025-11-23 12:35:55,717] Абитуриент 2138704235 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-23 12:35:57,190] Абитуриент 2138704235 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-23 12:35:59,626] Пользователь 2138704235 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-23 12:36:10,811] Абитуриент 2138704235 ввел логин: M.Iskander
+            main2.py [LINE:194 ] INFO     [2025-11-23 12:36:14,804] DEBUG: Успешная авторизация для M.Iskander
+            main2.py [LINE:203 ] INFO     [2025-11-23 12:36:14,966] Абитуриент 2138704235 успешно авторизован как M.Iskander
+            main2.py [LINE:308 ] INFO     [2025-11-23 12:36:16,210] Студент M.Iskander открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-23 12:36:17,888] Студент M.Iskander запросил расписание на today
+            main2.py [LINE:345 ] INFO     [2025-11-23 12:36:17,890] DEBUG: Обработка периода 'today'
+            main2.py [LINE:352 ] INFO     [2025-11-23 12:36:17,901] DEBUG: Сегодня - дата: 2025-11-23, день: sunday, неделя: odd
+            main2.py [LINE:376 ] INFO     [2025-11-23 12:36:17,909] DEBUG: Получено расписаний: 0
+            main2.py [LINE:381 ] INFO     [2025-11-23 12:36:17,910] DEBUG: Расписание на сегодня не найдено
+            main2.py [LINE:445 ] INFO     [2025-11-23 12:36:18,090] Расписание на today успешно отправлено студенту M.Iskander
+            main2.py [LINE:308 ] INFO     [2025-11-23 12:36:18,994] Студент M.Iskander открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-23 12:36:19,940] Студент M.Iskander запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-23 12:36:19,943] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-23 12:36:20,025] DEBUG: Завтра - дата: 2025-11-24, день: monday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-23 12:36:20,035] DEBUG: Получено расписаний: 3
+            main2.py [LINE:445 ] INFO     [2025-11-23 12:36:20,165] Расписание на tomorrow успешно отправлено студенту M.Iskander
+            main2.py [LINE:308 ] INFO     [2025-11-23 12:36:23,900] Студент M.Iskander открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-23 12:36:24,751] Студент M.Iskander запросил расписание на week
+            main2.py [LINE:345 ] INFO     [2025-11-23 12:36:24,752] DEBUG: Обработка периода 'week'
+            main2.py [LINE:368 ] INFO     [2025-11-23 12:36:24,753] DEBUG: Неделя - тип: odd
+            main2.py [LINE:376 ] INFO     [2025-11-23 12:36:24,766] DEBUG: Получено расписаний: 20
+            main2.py [LINE:445 ] INFO     [2025-11-23 12:36:25,105] Расписание на week успешно отправлено студенту M.Iskander
+            main2.py [LINE:308 ] INFO     [2025-11-23 12:36:27,398] Студент M.Iskander открыл раздел расписания
+            main2.py [LINE:219 ] INFO     [2025-11-23 12:36:29,942] DEBUG: user_id=2138704235, current_login=M.Iskander
+            main2.py [LINE:233 ] INFO     [2025-11-23 12:36:29,960] Студент M.Iskander запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-23 12:36:30,286] Табель успешно отправлен студенту M.Iskander
+            main2.py [LINE:338 ] INFO     [2025-11-23 12:44:55,881] Студент M.Iskander запросил расписание на week
+            main2.py [LINE:345 ] INFO     [2025-11-23 12:44:55,883] DEBUG: Обработка периода 'week'
+            main2.py [LINE:368 ] INFO     [2025-11-23 12:44:55,885] DEBUG: Неделя - тип: odd
+            main2.py [LINE:376 ] INFO     [2025-11-23 12:44:55,892] DEBUG: Получено расписаний: 20
+            main2.py [LINE:445 ] INFO     [2025-11-23 12:44:56,172] Расписание на week успешно отправлено студенту M.Iskander
+            main2.py [LINE:149 ] INFO     [2025-11-23 14:34:39,786] Абитуриент 1911135274 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-23 14:34:41,515] Пользователь 1911135274 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-23 14:35:11,914] Абитуриент 1911135274 ввел логин: V.Hayrulin
+            main2.py [LINE:194 ] INFO     [2025-11-23 14:35:17,354] DEBUG: Успешная авторизация для V.Hayrulin
+            main2.py [LINE:203 ] INFO     [2025-11-23 14:35:17,468] Абитуриент 1911135274 успешно авторизован как V.Hayrulin
+            main2.py [LINE:219 ] INFO     [2025-11-23 14:35:19,159] DEBUG: user_id=1911135274, current_login=V.Hayrulin
+            main2.py [LINE:233 ] INFO     [2025-11-23 14:35:19,167] Студент V.Hayrulin запросил свой табель
+            main2.py [LINE:293 ] INFO     [2025-11-23 14:35:19,297] Табель успешно отправлен студенту V.Hayrulin
+            main2.py [LINE:308 ] INFO     [2025-11-23 14:35:37,425] Студент V.Hayrulin открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-23 14:35:38,761] Студент V.Hayrulin запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-23 14:35:38,766] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-23 14:35:38,773] DEBUG: Завтра - дата: 2025-11-24, день: monday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-23 14:35:38,790] DEBUG: Получено расписаний: 3
+            main2.py [LINE:445 ] INFO     [2025-11-23 14:35:38,980] Расписание на tomorrow успешно отправлено студенту V.Hayrulin
+            main2.py [LINE:308 ] INFO     [2025-11-23 14:35:42,555] Студент V.Hayrulin открыл раздел расписания
+            main2.py [LINE:462 ] INFO     [2025-11-23 14:35:48,042] Студент V.Hayrulin запросил приоритеты
+            main2.py [LINE:519 ] INFO     [2025-11-23 14:35:48,167] Приоритеты успешно отправлены студенту V.Hayrulin
+            main2.py [LINE:308 ] INFO     [2025-11-23 14:36:02,413] Студент V.Hayrulin открыл раздел расписания
+            main2.py [LINE:462 ] INFO     [2025-11-23 16:42:33,592] Студент M.Iskander запросил приоритеты
+            main2.py [LINE:519 ] INFO     [2025-11-23 16:42:33,962] Приоритеты успешно отправлены студенту M.Iskander
+            main2.py [LINE:120 ] INFO     [2025-11-23 20:54:53,608] Абитуриент 1370713259 вызвал /start
+            main2.py [LINE:149 ] INFO     [2025-11-23 20:54:54,722] Абитуриент 1370713259 выбрал группу СПД-103
+            main2.py [LINE:163 ] INFO     [2025-11-23 20:54:55,946] Пользователь 1370713259 выбрал роль: Абитуриент
+            main2.py [LINE:179 ] INFO     [2025-11-23 20:55:00,959] Абитуриент 1370713259 ввел логин: D.Pakskin
+            main2.py [LINE:194 ] INFO     [2025-11-23 20:55:04,854] DEBUG: Успешная авторизация для D.Pakskin
+            main2.py [LINE:203 ] INFO     [2025-11-23 20:55:05,055] Абитуриент 1370713259 успешно авторизован как D.Pakskin
+            main2.py [LINE:308 ] INFO     [2025-11-23 20:55:07,085] Студент D.Pakskin открыл раздел расписания
+            main2.py [LINE:338 ] INFO     [2025-11-23 20:55:08,434] Студент D.Pakskin запросил расписание на tomorrow
+            main2.py [LINE:345 ] INFO     [2025-11-23 20:55:08,436] DEBUG: Обработка периода 'tomorrow'
+            main2.py [LINE:361 ] INFO     [2025-11-23 20:55:08,512] DEBUG: Завтра - дата: 2025-11-24, день: monday, неделя: even
+            main2.py [LINE:376 ] INFO     [2025-11-23 20:55:08,537] DEBUG: Получено расписаний: 3
+            main2.py [LINE:445 ] INFO     [2025-11-23 20:55:08,703] Расписание на tomorrow успешно отправлено студенту D.Pakskin
+            main2.py [LINE:563 ] ERROR    [2025-11-24 03:12:06,034] Ошибка в работе бота абитуриентов: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/util/retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/urllib3/connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/KFGbot/main2.py", line 559, in <module>
+    bot.polling(none_stop=True)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1198, in polling
+    self.__threaded_polling(non_stop=non_stop, interval=interval, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1273, in __threaded_polling
+    raise e
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 162, in _make_request
+    result = _get_req_session().request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+            main2.py [LINE:565 ] INFO     [2025-11-24 03:12:06,221] Бот абитуриентов завершил работу.

@@ -1,1 +1,1 @@
-# KFGbot1
+# KFG

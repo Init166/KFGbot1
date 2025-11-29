@@ -1,0 +1,71 @@
+             main.py [LINE:42  ] INFO     [2025-11-25 13:13:39,202] Бот запущен и готов к работе.
+             main.py [LINE:1574] INFO     [2025-11-25 13:13:39,209] Бот запущен и готов к работе.
+             main.py [LINE:1579] ERROR    [2025-11-25 21:55:15,648] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+             main.py [LINE:1579] ERROR    [2025-11-25 23:04:56,032] Ошибка: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+             main.py [LINE:1579] ERROR    [2025-11-26 07:21:50,321] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+         __init__.py [LINE:1241] ERROR    [2025-11-26 11:36:50,774] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+         __init__.py [LINE:1243] ERROR    [2025-11-26 11:36:50,868] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/KFGbot/main.py", line 253, in handle_main_menu
+    bot.answer_callback_query(call.id)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 6058, in answer_callback_query
+    return apihelper.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 1854, in answer_callback_query
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+
+         __init__.py [LINE:1241] ERROR    [2025-11-26 11:45:56,488] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+         __init__.py [LINE:1243] ERROR    [2025-11-26 11:45:56,530] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/KFGbot/main.py", line 1214, in handle_absence_student_selection
+    bot.edit_message_text(
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 4974, in edit_message_text
+    result = apihelper.edit_message_text(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 1507, in edit_message_text
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+             main.py [LINE:1579] ERROR    [2025-11-26 14:26:40,116] Ошибка: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:26:46,211] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7ffdf440>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:26:52,298] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7ffdfb60>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:26:58,354] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f8438e990>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:27:04,421] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7ffdd100>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:27:10,478] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7fe20260>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:27:16,537] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7ffdd280>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:27:22,587] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f84c22810>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:27:28,657] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7fe20260>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:27:34,709] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f83f22480>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:29:42,453] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7ffdf500>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-26 14:31:55,259] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984330385&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f7fe215b0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))

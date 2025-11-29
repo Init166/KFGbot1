@@ -1,0 +1,235 @@
+             main.py [LINE:42  ] INFO     [2025-11-01 16:01:54,160] Бот запущен и готов к работе.
+             main.py [LINE:1574] INFO     [2025-11-01 16:01:54,164] Бот запущен и готов к работе.
+         __init__.py [LINE:1241] ERROR    [2025-11-01 16:02:00,406] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+         __init__.py [LINE:1243] ERROR    [2025-11-01 16:02:00,418] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+         __init__.py [LINE:1241] ERROR    [2025-11-01 16:02:09,946] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+         __init__.py [LINE:1243] ERROR    [2025-11-01 16:02:09,956] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1234, in __threaded_polling
+    polling_thread.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 111, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 688, in __retrieve_updates
+    updates = self.get_updates(offset=(self.last_update_id + 1),
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 660, in get_updates
+    json_updates = apihelper.get_updates(
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 332, in get_updates
+    return _make_request(token, method_url, params=payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+
+             main.py [LINE:161 ] INFO     [2025-11-01 16:04:39,523] Пользователь 1184256677 выбрал группу СПД-103
+             main.py [LINE:175 ] INFO     [2025-11-01 16:04:41,777] Пользователь 1184256677 выбрал роль: Староста
+         __init__.py [LINE:1241] ERROR    [2025-11-01 20:04:19,386] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+         __init__.py [LINE:1243] ERROR    [2025-11-01 20:04:19,466] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/KFGbot/main.py", line 253, in handle_main_menu
+    bot.answer_callback_query(call.id)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 6058, in answer_callback_query
+    return apihelper.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 1854, in answer_callback_query
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+
+         __init__.py [LINE:1241] ERROR    [2025-11-01 20:50:55,610] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+         __init__.py [LINE:1243] ERROR    [2025-11-01 20:50:55,642] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/KFGbot/main.py", line 253, in handle_main_menu
+    bot.answer_callback_query(call.id)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 6058, in answer_callback_query
+    return apihelper.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 1854, in answer_callback_query
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+
+             main.py [LINE:1579] ERROR    [2025-11-02 14:13:03,908] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+             main.py [LINE:1579] ERROR    [2025-11-03 10:51:50,698] Ошибка: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:51:56,805] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d56e5d0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:52:02,882] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d50d820>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:52:08,929] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d56e3f0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:52:14,999] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d56f530>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:52:21,116] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d19c6e0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:52:27,183] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7aa1492bd0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:52:33,230] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d56e1b0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:52:39,298] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d56e6f0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:52:45,348] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d56e180>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 10:54:53,121] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d56d370>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 11:14:51,485] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7a9d50cdd0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 11:14:57,533] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8052083645:AAEgRMvfXJzgfIUCvH2e7829k3VEWpdDw2k/getUpdates?offset=984329451&timeout=20 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7aa1492ae0>: Failed to resolve 'api.telegram.org' ([Errno 7] No address associated with hostname)"))
+             main.py [LINE:1579] ERROR    [2025-11-03 20:46:56,401] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+         __init__.py [LINE:1241] ERROR    [2025-11-03 21:01:03,400] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+         __init__.py [LINE:1243] ERROR    [2025-11-03 21:01:03,416] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/KFGbot/main.py", line 253, in handle_main_menu
+    bot.answer_callback_query(call.id)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 6058, in answer_callback_query
+    return apihelper.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 1854, in answer_callback_query
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+
+             main.py [LINE:1579] ERROR    [2025-11-05 06:59:23,289] Ошибка: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=25)
+             main.py [LINE:144 ] INFO     [2025-11-05 07:28:18,312] Пользователь 1076182200 вызвал /start
+         __init__.py [LINE:1241] ERROR    [2025-11-05 08:05:55,409] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+         __init__.py [LINE:1243] ERROR    [2025-11-05 08:05:55,418] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/KFGbot/main.py", line 1151, in handle_attendance
+    bot.edit_message_text(
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 4974, in edit_message_text
+    result = apihelper.edit_message_text(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 1507, in edit_message_text
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+
+             main.py [LINE:144 ] INFO     [2025-11-05 13:20:51,083] Пользователь 2138704235 вызвал /start
+             main.py [LINE:161 ] INFO     [2025-11-05 13:21:07,991] Пользователь 2138704235 выбрал группу СПД-103
+         __init__.py [LINE:1241] ERROR    [2025-11-05 13:21:09,012] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+         __init__.py [LINE:1243] ERROR    [2025-11-05 13:21:09,018] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/KFGbot/main.py", line 162, in handle_group_selection
+    bot.answer_callback_query(call.id)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 6058, in answer_callback_query
+    return apihelper.answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 1854, in answer_callback_query
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: query is too old and response timeout expired or query ID is invalid
+
+         __init__.py [LINE:1241] ERROR    [2025-11-05 13:37:40,942] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+         __init__.py [LINE:1243] ERROR    [2025-11-05 13:37:40,970] Exception traceback:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/util.py", line 93, in run
+    task(*args, **kwargs)
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/KFGbot/main.py", line 1105, in handle_grade_type_selection
+    bot.edit_message_text(
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/__init__.py", line 4974, in edit_message_text
+    result = apihelper.edit_message_text(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 1507, in edit_message_text
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/site-packages/telebot/apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+

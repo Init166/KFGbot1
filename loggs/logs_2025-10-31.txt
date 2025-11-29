@@ -1,0 +1,32 @@
+             main.py [LINE:51  ] INFO     [2025-10-31 23:25:44,507] Бот запущен и готов к работе.
+             main.py [LINE:2133] INFO     [2025-10-31 23:25:44,508] Запуск цикла обработки сообщений...
+             main.py [LINE:1911] INFO     [2025-10-31 23:25:50,045] Пользователь 2138704235 вызвал /start
+             main.py [LINE:1933] INFO     [2025-10-31 23:25:51,933] Пользователь 2138704235 выбрал группу СПД-103
+             main.py [LINE:1949] INFO     [2025-10-31 23:25:53,108] Пользователь 2138704235 выбрал роль: Староста
+             main.py [LINE:2027] INFO     [2025-10-31 23:26:06,193] Пользователь 2138704235 успешно авторизован как староста (M.Iskander)
+         __init__.py [LINE:1241] ERROR    [2025-11-01 00:09:19,456] Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+         __init__.py [LINE:1243] ERROR    [2025-11-01 00:09:19,457] Exception traceback:
+Traceback (most recent call last):
+  File "/home/marat/Рабочий стол/telegram-bot/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "/home/marat/Рабочий стол/telegram-bot/venv/lib/python3.12/site-packages/telebot/util.py", line 154, in raise_exceptions
+    raise self.exception_info
+  File "/home/marat/Рабочий стол/telegram-bot/venv/lib/python3.12/site-packages/telebot/util.py", line 97, in run
+    task(*args, **kwargs)
+  File "/home/marat/Рабочий стол/telegram-bot/main.py", line 1239, in <lambda>
+    bot.register_next_step_handler(message, lambda msg: save_grade_value(msg, student_name, subject))
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/marat/Рабочий стол/telegram-bot/main.py", line 1082, in save_grade_value
+    bot.send_message(
+  File "/home/marat/Рабочий стол/telegram-bot/venv/lib/python3.12/site-packages/telebot/__init__.py", line 1811, in send_message
+    apihelper.send_message(
+  File "/home/marat/Рабочий стол/telegram-bot/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 282, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/marat/Рабочий стол/telegram-bot/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/marat/Рабочий стол/telegram-bot/venv/lib/python3.12/site-packages/telebot/apihelper.py", line 197, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+
